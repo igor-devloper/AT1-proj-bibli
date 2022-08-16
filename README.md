@@ -10,6 +10,8 @@ Para realizar esta atividade, siga as instruções a seguir:</
 
 3 - Faça também o download do documento de requisitos do projeto disponibilizado nos materiais complementares.
 4 - Instale o sistema de bug tracker Mantis.
+
+
 5 - Realize o versionamento inicial do projeto com GIT, configurando arquivos a serem ignorados e realizando as primeiras operações de commit.
 ```bash
 git init
