@@ -5,14 +5,15 @@ A Id Websistemas vem trabalhando no projeto Biblioteca, destinado a uma pequena 
 Serão utilizadas técnicas de caixa-preta e caixa-branca para os testes. Caso problemas sejam detectados, tarefas devem ser cadastradas no sistema de bug tracker do projeto. Além disso, um novo repositório precisará ser criado e as primeiras operações precisarão ocorrer.
 
 ## Atividade
-Para realizar esta atividade, siga as instruções a seguir:</
-2 - Faça o download do projeto disponibilizado nos materiais complementares.
+Para realizar esta atividade, siga as instruções a seguir:
 
-3 - Faça também o download do documento de requisitos do projeto disponibilizado nos materiais complementares.
-4 - Instale o sistema de bug tracker Mantis.
+- Faça o download do projeto disponibilizado nos materiais complementares.
 
+- Faça também o download do documento de requisitos do projeto disponibilizado nos materiais complementares.
 
-5 - Realize o versionamento inicial do projeto com GIT, configurando arquivos a serem ignorados e realizando as primeiras operações de commit.
+- Instale o sistema de bug tracker Mantis.
+
+- Realize o versionamento inicial do projeto com GIT, configurando arquivos a serem ignorados e realizando as primeiras operações de commit.
 ```bash
 git init
 git add .
@@ -20,7 +21,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/xxxxxxxx/xxxxxx
 git push -u origin main
 ```
-6 - Teste o projeto utilizando técnicas de caixa-branca e caixa-preta. Baseie-se nos requisitos documentados para identificar erros e falhas.
+
+- Teste o projeto utilizando técnicas de caixa-branca e caixa-preta. Baseie-se nos requisitos documentados para identificar erros e falhas.
 Cadastre cada problema encontrado no sistema Mantis, indicando a descrição do problema e os passos para reproduzi-lo, além da gravidade e da urgência do problema.
 
 ## Avaliação
