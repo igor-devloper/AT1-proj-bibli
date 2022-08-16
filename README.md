@@ -4,7 +4,7 @@ A Id Websistemas vem trabalhando no projeto Biblioteca, destinado a uma pequena 
  
 Serão utilizadas técnicas de caixa-preta e caixa-branca para os testes. Caso problemas sejam detectados, tarefas devem ser cadastradas no sistema de bug tracker do projeto. Além disso, um novo repositório precisará ser criado e as primeiras operações precisarão ocorrer.
 
-## Atividade`
+## Atividade
 Para realizar esta atividade, siga as instruções a seguir:</
 2 - Faça o download do projeto disponibilizado nos materiais complementares.
 
