@@ -13,6 +13,15 @@ Para realizar esta atividade, siga as instruções a seguir:
 
 - Instale o sistema de bug tracker Mantis.
 
+- Use o <a href="https://docs.microsoft.com/pt-br/ef/">Entify Framework</a> para o banco de dados.
+```bash
+dotnet tool install --global dotnet-ef --version 3.0.0 
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 3.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.0.0
+dotnet ef migrations add CreateDatabase
+dotnet ef database update
+````
+
 - Realize o versionamento inicial do projeto com GIT, configurando arquivos a serem ignorados e realizando as primeiras operações de commit.
 ```bash
 git init
