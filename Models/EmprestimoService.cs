@@ -25,7 +25,8 @@ namespace Biblioteca.Models
                 emprestimo.LivroId = e.LivroId;
                 emprestimo.DataEmprestimo = e.DataEmprestimo;
                 emprestimo.DataDevolucao = e.DataDevolucao;
-
+                emprestimo.Devolvido = e.Devolvido;
+    
                 bc.SaveChanges();
             }
         }
@@ -34,7 +35,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.Emprestimos.Include(e => e.Livro).ToList();
+                return bc.Emprestimos.Include(e => e.Livro).OrderBy(e => e.DataDevolucao).ToList();
             }
         }
 
